@@ -1,8 +1,7 @@
 import './App.css';
-import Game from './app/game';
 
 function App() {
-    return <Game />;
+    return null;
 }
 
 export default App;
