@@ -1,0 +1,19 @@
+.wrapper {
+    color: white;
+    width: 300px;
+    background: rgb(17, 16, 18);
+    .title {
+        border-bottom: 1px solid white;
+        padding: 5px;
+    }
+    .navigationWrapper {
+        margin: 10px;
+        position: relative;
+    }
+}
+
+.chanel {
+    position: absolute;
+    top: -10px;
+    left: -60px;
+}
