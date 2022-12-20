@@ -1,0 +1,22 @@
+
+.main{
+    width: 100%;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.wrapper {
+    height: 100vh;
+    width: fit-content;
+    background: rgb(81, 15, 84);
+    .main {
+    margin-left: 70px;
+
+        display: flex;
+        height: calc(100% - 50px);
+    }
+}
