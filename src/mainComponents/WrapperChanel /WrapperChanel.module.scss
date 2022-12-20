@@ -1,15 +1,38 @@
 .wrapper {
     width: 60px;
-    min-height: 400px;
     background: rgb(54, 20, 60);
-
+    min-height: 30px;
+    max-height: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+
+}
+
+.listChanel{
+
 }
 
 .addChanel {
     width: 50px !important;
     height: 50px !important;
-    color: white  !important;
-
+    color: white !important;
 }
+
+.element::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  /*Убрать полосу прокрутки для всей страницы*/
+  ::-webkit-scrollbar {
+    width: 0;
+  }
